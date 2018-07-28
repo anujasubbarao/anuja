@@ -1,7 +1,4 @@
 n=int(raw_input())
-a = 1
-b = 2
-c = 3
  
 if a>b and a>c:
     print(a, " is largest")
