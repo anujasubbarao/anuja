@@ -1,9 +1,12 @@
 n=int(raw_input())
-if(n >= n1) and n >= n2 :
-	     largest = n
-if (n1 >=n) and n1 >= n2 :
-	     largest = n1
+a = 1
+b = 2
+c = 3
+ 
+if a>b and a>c:
+    print(a, " is largest")
+elif b>a and b>c:
+    print(b, " is largest")
 else:
-	     largest = n2
-	     print("the largest number between", "n", "n1","n2" is largest)
+    print(c, " is largest")
 
