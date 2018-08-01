@@ -2,4 +2,4 @@ n=int(raw_input())
 if(n % 4 >0):
 print("Not")
 else:
-print(""ieaf year")
+print("leaf year")
