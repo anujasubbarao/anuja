@@ -5,7 +5,7 @@ def test_prime(n):
     elif (n==2):
         return True;
     else:
-        for x in range(2,n):
+        for x in range(2,1000):
             if(n % x==0):
                 return False
         return True             
