@@ -1,12 +1,14 @@
 n=int(raw_input())
-if n > 1:
-    for i in range(2, n):
-        if (n % i) == 0:
-            print(n, "is not a prime number")
-            break
+def test_prime(n):
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
     else:
-        print(n, "is a prime number")
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(test_prime(7))
 
 
-else:
-    print(number, "is not a prime number")
