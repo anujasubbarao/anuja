@@ -4,7 +4,7 @@ times = 0
 temp = n
 while temp > 0:
         times = times + 1
-        temp = temp 10
+        temp =  10
 temp = n
 while temp > 0:
         rem = temp %10
