@@ -1,8 +1,8 @@
 n=int(raw_input())
-l = 100
-u = 100000
+lower =int(input("Enter lower range"))
+upper=int(input("Enter upper range"))
 
-for n in range(l, u + 1):
+for n in range(lower, upper + 1):
    order = len(str(n))
    sum = 0
    temp = n
