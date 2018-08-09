@@ -1,4 +1,4 @@
-
+n=int(raw_input())
 lower = 250
 upper = 100000
 
