@@ -1,5 +1,4 @@
 n=int(raw_input())
-n=int(input("Enter number"))
 temp=n
 rev=0
 while(n>0):
