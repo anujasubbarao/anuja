@@ -1,5 +1,5 @@
 n=int(raw_input())
-lower = 250
+lower = 100
 upper = 100000
 
 for num in range(lower, upper + 1):
