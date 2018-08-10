@@ -9,6 +9,6 @@ def arithmetic_progression():
 
     s = ( (2 * a) + ((n - 1) * d) ) * (n / 2)
 
-    print('Sum to n terms of given AP is: ' + str(s))
+    print('Sum to n terms of given AP')
 
 arithmetic_progression()
