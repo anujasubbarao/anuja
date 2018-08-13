@@ -8,9 +8,6 @@ def median(list):
             return sum((list[n//2-1:n//2+1]))/2.0
             
 number=int(raw_input())
-list=[]
-for i in range(0,number):
-    newNo=int(input( ))
-    a=list.append(newNo)
+list=[int(x) for x in raw_input().split()]
 list.sort()
 print median(list)
