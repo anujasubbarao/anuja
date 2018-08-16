@@ -12,6 +12,6 @@ else :
          while i<r:
 	              a3=a1+a2
 	              print a3,
-	               a1=a2
-	               a2=a3
-                 i=i+1
+	              a1=a2
+	              a2=a3
+                      i=i+1
