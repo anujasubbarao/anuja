@@ -1,17 +1,17 @@
 r=int(raw_input())
-a1=1
-a2=1
+n1=1
+n2=1
 i=2
 if r<= 0:
        print("positive number")
 elif r == 1:
          print a1,
 else :
-         print a1,
-         print a2,
+         print n1,
+         print n2,
          while i<r:
-	              a3=a1+a2
-	              print a3,
-	              a1=a2
-	              a2=a3
+	              n3=n1+n2
+	              print n3,
+	              n1=n2
+	              n2=n3
                       i=i+1
