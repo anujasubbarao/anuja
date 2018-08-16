@@ -1,2 +1,2 @@
-string=raw_input()
+string=int(raw_input())
 print(string.count(' '))
