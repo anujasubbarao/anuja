@@ -1,3 +1,5 @@
 n=int(raw_input())
-n=n-1
-print n
+if n%2==0:
+	print n
+else:
+	print n-1
