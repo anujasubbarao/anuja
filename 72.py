@@ -1,6 +1,6 @@
-w = raw_input ()
+string= raw_input ()
 v = "aeiouAEIOU"
-if w[0] in v:
+if string[0] in v:
     print ("yes")       
 else:
     print ("no") 
