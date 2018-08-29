@@ -1,6 +1,6 @@
-a=raw_input()
-vowels = ['a','e','i','o','u']
-if(a in vowels):
-        print("yes")
+w = raw_input ()
+v = "aeiouAEIOU"
+if w[0] in v:
+    print ("yes")       
 else:
-        print("no")
+    print ("no") 
