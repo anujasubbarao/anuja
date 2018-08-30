@@ -1,3 +1,3 @@
 n=float(raw_input())
-n=int(round(n))
-print n
+h=int(round(n+1))
+print h
