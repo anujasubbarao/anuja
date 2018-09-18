@@ -7,6 +7,6 @@ for i in range (0,l):
 		c=c+1
 		break
 if (c==0):
-	print("yes")
+	print("Yes")
 else:
-	print("no")
+	print("No")
