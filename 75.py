@@ -1,13 +1,13 @@
 str=raw_input()
 l=len(str)
-strl=list(str)
+str1=list(str)
 k=int(round((l//2)))
 if(l%2==0):
 	str1[k]='*'
-	strl[k-1]='*'
+	str1[k-1]='*'
 else:
-	strl[k]='*'
+	str1[k]='*'
 ans=''
-for i in strl:
+for i in str1:
          ans=ans+i
 print ans
