@@ -12,7 +12,7 @@ def alsort():
 				if m<l[j] :
 					p=j
 					m=l[j]
-			l[i],l[p]=l[p],l[i]
+			l[i],l[p]=l[i],l[p]
 			c=1
 			continue
 		if c==1:
