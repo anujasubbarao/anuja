@@ -1,5 +1,5 @@
-str1=str(raw_input())
-str2=str(raw_input())
+str1=input()
+str2=input()
 m = len(str1)
 n = len(str2)
 s=1
